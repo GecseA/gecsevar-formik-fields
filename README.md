@@ -1,5 +1,5 @@
-![my workflow](https://github.com/GecseA/gecsevar-formik-fields/actions/workflows/npm.yml/badge.svg)
-[![Node version](https://img.shields.io/node/v/@gecsevar.hu/gecsevar-formik-fields.svg?style=flat)](https://nodejs.org/download/)
+[![npm version](https://badge.fury.io/js/@gecsevar.hu%2Fgecsevar-formik-fields.svg)](https://badge.fury.io/js/@gecsevar.hu%2Fgecsevar-formik-fields)
+
 [![https://nodei.co/npm/@gecsevar.hu/gecsevar-formik-fields.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@gecsevar.hu/gecsevar-formik-fields.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@gecsevar.hu/gecsevar-formik-fields)
 
 # Getting Started with Create React App
