@@ -1,3 +1,7 @@
+![my workflow](https://github.com/GecseA/gecsevar-formik-fields/actions/workflows/npm.yml/badge.svg)
+[![Node version](https://img.shields.io/node/v/@gecsevar.hu/gecsevar-formik-fields.svg?style=flat)](https://nodejs.org/download/)
+[![https://nodei.co/npm/@gecsevar.hu/gecsevar-formik-fields.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/YOUR-MODULE-NAME)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
