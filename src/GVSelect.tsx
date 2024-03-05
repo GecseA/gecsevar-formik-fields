@@ -56,7 +56,7 @@ export function GVSelect({
   }
 
   return isMultiSelect ? (
-    <FormControl sx={{ margin: '5px', width: 300 }} error={errorMessage == undefined ? false:errorMessage?.length}>
+    <FormControl sx={{ margin: '5px', width: 300 }} error={errorMessage == undefined ? false : errorMessage?.length !== 0}>
       <InputLabel id='demo-multiple-chip-label'>{props.label}</InputLabel>
       <Select
         labelId='demo-multiple-chip-label'
