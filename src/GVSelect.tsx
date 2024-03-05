@@ -43,14 +43,10 @@ export function GVSelect({
   field,
   isMultiSelect = false,
   options,
-  form: { errors, touched, isSubmitting, values, setFieldValue },
+  form: { errors, isSubmitting, values, setFieldValue },
   ...props
 }: GVSelectFieldProps) {
-  let errorMessage: any = undefined
-  if (getIn(touched, field.name) === true) {
-    errorMessage = getIn(errors, field.name)
-  }
-
+  const errorMessage = getIn(errors, field.name)
   const theme = useTheme()
   const handleChange = (event: SelectChangeEvent<string[]>) => {
     const {
