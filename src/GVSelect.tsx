@@ -2,7 +2,7 @@ import { getIn } from 'formik'
 import {
   Box,
   Chip,
-  FormControl,
+  FormControl, FormHelperText,
   InputLabel,
   MenuItem,
   OutlinedInput,
@@ -60,7 +60,7 @@ export function GVSelect({
   }
 
   return isMultiSelect ? (
-    <FormControl sx={{ margin: '5px', width: 300 }}>
+    <FormControl sx={{ margin: '5px', width: 300 }} error={errorMessage?.length}>
       <InputLabel id='demo-multiple-chip-label'>{props.label}</InputLabel>
       <Select
         labelId='demo-multiple-chip-label'
@@ -69,7 +69,6 @@ export function GVSelect({
         size={'small'}
         value={getIn(values, field.name)}
         onChange={handleChange}
-        error={!!errorMessage}
         input={<OutlinedInput id='select-multiple-chip' label={props.label} />}
         renderValue={(selected: string[]) => (
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
@@ -97,6 +96,7 @@ export function GVSelect({
           </MenuItem>
         ))}
       </Select>
+      <FormHelperText>{errorMessage}</FormHelperText>
     </FormControl>
   ) : (
     <TextField
