@@ -69,6 +69,7 @@ export function GVSelect({
         size={'small'}
         value={getIn(values, field.name)}
         onChange={handleChange}
+        error={!!errorMessage}
         input={<OutlinedInput id='select-multiple-chip' label={props.label} />}
         renderValue={(selected: string[]) => (
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
