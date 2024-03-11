@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GecseA/gecsevar-formik-fields.git"
+    "url": "git+https://github.com/GecseA/gecsevar-formik-fields.git"
   },
   "dependencies": {
     "@types/react": "^18.2.55",
